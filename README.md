@@ -1,6 +1,10 @@
 # MotorChain
 Private Ethereum Blockchain using Proof of Authority
 
+How to Install:
+
+* Run `make install` to install MotorChain dependencies
+
 Use: 
 
 * `make initialize` to initialize the blockchain
