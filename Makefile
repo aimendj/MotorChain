@@ -1,9 +1,10 @@
-create:
-	geth account new --password password.txt> account.txt
+createAccount:
+	geth account new --password password.txt > account.txt
 	sed -n -i -e '4p' account.txt
 	sed -i -e 's/Public address of the key:   //' account.txt 
 
-
+updateConfigEtherbase:
+	sed -i -e 's/Etherbase = "0x.*"/Etherbase = "'`cat account.txt`'"/' config.toml 
 
 initialize:
 	geth init motorchaintestnet.json
