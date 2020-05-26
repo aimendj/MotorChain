@@ -19,5 +19,4 @@ clean:
 	yes | geth removedb
 
 install:
-	./go/src/make.bash
 	make all -C ./go-ethereum/
