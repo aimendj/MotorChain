@@ -22,3 +22,4 @@ install:
 	make all -C ./go-ethereum/
 	make geth -C ./go-ethereum/
 	export PATH=$$PATH:$$PWD/go-ethereum/build/bin/ 
+	export PATH
