@@ -1,3 +1,10 @@
+create:
+	geth account new --password password.txt> account.txt
+	sed -n -i -e '4p' account.txt
+	sed -i -e 's/Public address of the key:   //' account.txt 
+
+
+
 initialize:
 	geth init motorchaintestnet.json
 

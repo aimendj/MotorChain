@@ -73,11 +73,11 @@ GraphQLVirtualHosts = ["localhost"]
 [Node.P2P]
 MaxPeers = 50
 NoDiscovery = false
-BootstrapNodes = ["enode://ad997f3ba319e289a8968e10eb29842deba3e900e62c34b8bef7921cbad259c8e404bdca3e8320b362b384da0a85a923a8120980a554dee309ceabda549eb45a@127.0.0.1:0?discport=30301"]
-BootstrapNodesV5 = ["enode://ad997f3ba319e289a8968e10eb29842deba3e900e62c34b8bef7921cbad259c8e404bdca3e8320b362b384da0a85a923a8120980a554dee309ceabda549eb45a@127.0.0.1:0?discport=30301"]
+BootstrapNodes = ["enode://c10e4577de3f4d91017b0da1a3773c84feb826901998c8c52cee725ceb9c1b4c298877e553f17e08d6ccda3bfefff6e3620a5f9ae026f5f3b3658ba3649699f2@127.0.0.1:0?discport=30303"]
+BootstrapNodesV5 = ["enode://c10e4577de3f4d91017b0da1a3773c84feb826901998c8c52cee725ceb9c1b4c298877e553f17e08d6ccda3bfefff6e3620a5f9ae026f5f3b3658ba3649699f2@127.0.0.1:0?discport=30303"]
 StaticNodes = []
 TrustedNodes = []
-ListenAddr = ":30306"
+ListenAddr = ":30303"
 EnableMsgEvents = false
 
 [Node.HTTPTimeouts]
