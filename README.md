@@ -1,6 +1,14 @@
 # MotorChain
 Private Ethereum Blockchain using Proof of Authority
 
+How to Install:
+
+* Run `git clone https://github.com/aimendj/MotorChain.git`
+
+* Go to MotorChain directory
+
+* Run `make install` to install MotorChain dependencies
+
 Use: 
 
 * `make initialize` to initialize the blockchain
