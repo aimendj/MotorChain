@@ -16,6 +16,7 @@ EWASMInterpreter = ""
 EVMInterpreter = ""
 
 [Eth.Miner]
+Etherbase = "0x1949789ff7b51175a3adaf7cdcaa20a51b85b3b6"
 GasFloor = 8000000
 GasCeil = 8000000
 GasPrice = 0
