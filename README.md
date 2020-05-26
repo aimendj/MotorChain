@@ -1,6 +1,8 @@
 # MotorChain
 Private Ethereum Blockchain using Proof of Authority
 
+* Install latest distribution of [Go](https://golang.org/doc/install) if you don't have it already.
+
 How to Install:
 
 * Run `git clone --recursive https://github.com/aimendj/MotorChain.git`
