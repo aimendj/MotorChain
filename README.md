@@ -20,3 +20,6 @@ Use:
 * `make mine` to run a miner (sealer when it comes to Proof-of-Authority)
   
 * `make clean` to clean the blockchain
+
+
+  ACCOUNT_PASSWORD=password truffle deploy --network motorchaintestnet --reset
